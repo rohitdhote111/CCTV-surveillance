@@ -13,9 +13,9 @@ I have provided here a Neural Network approach for this problem. The problem is 
 If the truck is present in the Image then classify it as 1 
 If the truck is NOT present in the Image then classify it as 0
 
-Methodology :
+# Methodology :
 
-  Preparation of Dataset :
+  ## Preparation of Dataset :
    1. collection : Uniformly distributed video footage was collected from various seasonal conditions(summer, winter, Monsoon).
                     Data also consists of various light conditions as per daily variation(Morning, afternoon, evening).
                     
@@ -26,12 +26,12 @@ Methodology :
                    Train Data = 479 images (80 %)
                    Test Data = 119 imgages (20 %)
   
-  Training of Model:
-    1. For traning purpose google colab is used and complete data is uploaded on Google drive for smooth importing of data.
-    2. Using Keras Preprocessing tools data is imported in google colab.
-    3. after batch Normalization and autotuning of data Sequential model was used in KERAS framework.
-    4. Model consists of Maxpooling and Relu actvation function.
-    5. For compiling Adam optimizer was used.
+  ## Training of Model:
+   1. For traning purpose google colab is used and complete data is uploaded on Google drive for smooth importing of data.
+   2. Using Keras Preprocessing tools data is imported in google colab.
+   3. after batch Normalization and autotuning of data Sequential model was used in KERAS framework.
+   4. Model consists of Maxpooling and Relu actvation function.
+   5. For compiling Adam optimizer was used.
     
     
     Validation accuracy of 96.64% was achieved on the model.
