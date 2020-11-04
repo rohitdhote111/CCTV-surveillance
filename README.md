@@ -16,15 +16,16 @@ If the truck is NOT present in the Image then classify it as 0
 Methodology :
 
   Preparation of Dataset :
-    1. collection : Uniformly distributed video footage was collected from various seasonal conditions(summer, winter, Monsoon).
+   1. collection : Uniformly distributed video footage was collected from various seasonal conditions(summer, winter, Monsoon).
                     Data also consists of various light conditions as per daily variation(Morning, afternoon, evening).
                     
-                    Using functions of openCV library images are extrected from videos and cropped as per requirement.
+   Using functions of openCV library images are extrected from videos and cropped as per requirement.
                     
-    2. Labelling : According to the presence and absence of trucks in the cropped images data is stored in two separate folders.
+   2. Labelling : According to the presence and absence of trucks in the cropped images data is stored in two separate folders.
                    Folders are labelled as 0 and 1. and  complete data is split into train test set.
                    Train Data = 479 images (80 %)
                    Test Data = 119 imgages (20 %)
+  
   Training of Model:
     1. For traning purpose google colab is used and complete data is uploaded on Google drive for smooth importing of data.
     2. Using Keras Preprocessing tools data is imported in google colab.
