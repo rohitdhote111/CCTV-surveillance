@@ -1,4 +1,4 @@
-# CCTV-surveillance
+# Deep Learning based CCTV surveillance
   Intelligent surveillance system at Stone crusher site for counting Number of Trucks unloading at stone crusher.
 Previously a civil contractor use to pay to the labourers 4500 rupees per truck for unloading at the inlet of 
 stone crusher and complete payable amount was calculated based on manual supervision with the help of CCTV surveillance.
